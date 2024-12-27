@@ -1,0 +1,108 @@
+/* General App Styles */
+.App { 
+  text-align: center;
+  font-family: Arial, sans-serif; /* Set a global font family */
+}
+
+/* Navigation Bar Styling */
+nav {
+  display: flex;
+  justify-content: center;
+  background-color: #282c34;
+  padding: 10px;
+}
+
+nav a {
+  color: rgb(248, 244, 244);
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+  transition: color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+nav a:hover {
+  color: #fe0303; /* Consistent hover color for links */
+  text-decoration: underline;
+}
+
+/* Button Styles */
+button {
+  padding: 8px 12px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-left: 10px;
+  transition: background-color 0.3s ease, transform 0.3s ease; /* Adding smooth transition */
+}
+
+button:hover {
+  background-color: #02fb1b;
+  transform: translateY(-2px); /* Slight button movement on hover */
+}
+
+button:focus {
+  outline: none;
+  box-shadow: 0 0 5px #4CAF50; /* Adding a focus effect */
+}
+
+/* Input Field Styles */
+input[type="text"] {
+  padding: 8px;
+  margin-right: 10px;
+  font-size: 16px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  width: 200px;
+  transition: border-color 0.3s ease;
+}
+
+input[type="text"]:focus {
+  border-color: #4CAF50; /* Highlight border on focus */
+  outline: none;
+}
+
+/* List Item Button Styles */
+li button {
+  padding: 8px 12px;
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+li button:hover {
+  background-color: #c0392b;
+  transform: translateY(-2px); /* Adding hover effect for list item buttons */
+}
+
+li button:focus {
+  outline: none;
+  box-shadow: 0 0 5px #e74c3c; /* Focus effect for delete buttons */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  nav {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  nav a {
+    margin: 5px 0;
+  }
+
+  input[type="text"] {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  button {
+    width: 100%;
+  }
+}
