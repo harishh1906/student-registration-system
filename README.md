@@ -68,3 +68,23 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+# Student Registration System
+
+## Project Description
+This project is a simple student registration system built with React. It allows users to manage course types, courses, course offerings, and student registrations.
+
+## Features
+- Create, update, and delete course types.
+- Create, update, and delete courses.
+- Manage course offerings by associating courses with course types.
+- Register students for course offerings.
+- Filter course offerings based on selected course type.
+
+## Installation
+
+To run the project locally, follow these steps:
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/harishh1906/student-registration-system.git
+
